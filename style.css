@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: cursive;
+}
+
+h1:hover {
+  color: darkcyan;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+button {
+  margin: 0 0 0 3rem;
+  padding: 6px 38px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
